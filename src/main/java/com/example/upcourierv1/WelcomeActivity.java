@@ -9,6 +9,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.upcourierv1.Login.CustomerLoginRegisterActivity;
+import com.example.upcourierv1.Login.DriverLoginRegisterActivity;
+
 public class WelcomeActivity extends AppCompatActivity {
     Button btnDriver, btnCustomer;
     @Override
@@ -22,7 +25,7 @@ public class WelcomeActivity extends AppCompatActivity {
         btnDriver.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent driver = new Intent(WelcomeActivity.this, CreateMapV1.class);
+                Intent driver = new Intent(WelcomeActivity.this, DriverLoginRegisterActivity.class);
                 startActivity(driver);
                 finish();
                 return;
@@ -32,7 +35,7 @@ public class WelcomeActivity extends AppCompatActivity {
         btnCustomer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent customer = new Intent(WelcomeActivity.this, CostumerLoginRegisterActivity.class);
+                Intent customer = new Intent(WelcomeActivity.this, CustomerLoginRegisterActivity.class);
                 startActivity(customer);
                 finish();
                 return;

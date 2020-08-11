@@ -5,19 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Controlador.DriverMapActivity">
+    tools:context=".Controlador.CustomerMapActivity">
 
-    <TextView
-        android:id="@+id/textOrientation"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ACA VA EL MAPA"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.43"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.046" />
 
     <fragment
         android:id="@+id/map_fragment"
@@ -26,24 +15,13 @@
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textOrientation" />
-
-    <Button
-        android:id="@+id/btn_Cam"
-        android:layout_width="93dp"
-        android:layout_height="46dp"
-        android:layout_marginBottom="29dp"
-        android:text="Cam"
-        app:layout_constraintBottom_toTopOf="@+id/map_fragment"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/btn_leave"
+        android:id="@+id/btn_leaveC"
         android:layout_width="68dp"
         android:layout_height="36dp"
         android:text="Salir"
@@ -52,5 +30,20 @@
         app:layout_constraintHorizontal_bias="0.046"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.04" />
+
+    <Button
+        android:id="@+id/btn_Pedir"
+        android:layout_width="165dp"
+        android:layout_height="40dp"
+        android:text="Pedir Mensajero"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.819" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
