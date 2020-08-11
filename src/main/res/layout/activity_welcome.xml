@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="175dp"
+        android:layout_marginBottom="489dp"
+        android:text="UpCourier" />
+
+    <Button
+        android:id="@+id/btnWelcome_Driver"
+        android:layout_width="157dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="311dp"
+        android:background="@color/colorAdd2"
+        android:text="Soy Conductor" />
+
+    <Button
+        android:id="@+id/btnWelcome_Customer"
+        android:layout_width="157dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="381dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginBottom="222dp"
+        android:background="@color/colorAdd2"
+        android:text="Soy Cliente" />
+</RelativeLayout>
